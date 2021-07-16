@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinkyNonk.Shared", "NinkyNonk.Shared.csproj", "{3AF25C63-C0F8-4148-9A1D-13B17C1FE9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinkyNonk.Shared.Discord", "..\NinkyNonk.Shared.Discord\NinkyNonk.Shared.Discord.csproj", "{239C17EC-E977-438B-831B-D911A4404AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AF25C63-C0F8-4148-9A1D-13B17C1FE9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF25C63-C0F8-4148-9A1D-13B17C1FE9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF25C63-C0F8-4148-9A1D-13B17C1FE9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF25C63-C0F8-4148-9A1D-13B17C1FE9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239C17EC-E977-438B-831B-D911A4404AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239C17EC-E977-438B-831B-D911A4404AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239C17EC-E977-438B-831B-D911A4404AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239C17EC-E977-438B-831B-D911A4404AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
