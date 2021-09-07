@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3437c04-c578-45c7-b952-4aa880cdea3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NinkyNonk.Shared.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NinkyUser.cs" afterDir="false" />
+    <list default="true" id="d3437c04-c578-45c7-b952-4aa880cdea3e" name="Default Changelist" comment="m">
+      <change afterPath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +54,23 @@
       <updated>1625598653227</updated>
       <workItem from="1625598657837" duration="1842000" />
       <workItem from="1625667491199" duration="234000" />
-      <workItem from="1626453055585" duration="1048000" />
+      <workItem from="1626453055585" duration="2095000" />
+      <workItem from="1631031036381" duration="1050000" />
     </task>
+    <task id="LOCAL-00001" summary="m">
+      <created>1626458986789</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626458986790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,5 +90,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="m" />
+    <option name="LAST_COMMIT_MESSAGE" value="m" />
   </component>
 </project>
