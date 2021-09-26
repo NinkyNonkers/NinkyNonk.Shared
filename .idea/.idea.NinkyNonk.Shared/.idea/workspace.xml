@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3437c04-c578-45c7-b952-4aa880cdea3e" name="Default Changelist" comment="m">
-      <change afterPath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" afterDir="false" />
+    <list default="true" id="d3437c04-c578-45c7-b952-4aa880cdea3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NinkyProduct.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NinkyUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyUser.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,11 @@
       <workItem from="1625598657837" duration="1842000" />
       <workItem from="1625667491199" duration="234000" />
       <workItem from="1626453055585" duration="2095000" />
-      <workItem from="1631031036381" duration="1050000" />
+      <workItem from="1631031036381" duration="1070000" />
+      <workItem from="1631039266021" duration="771000" />
+      <workItem from="1631118868296" duration="1500000" />
+      <workItem from="1631816529605" duration="984000" />
+      <workItem from="1632565354621" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1626458986789</created>
@@ -64,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626458986790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ninky logger :D">
+      <created>1631033117650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631033117650</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +104,7 @@
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="m" />
-    <option name="LAST_COMMIT_MESSAGE" value="m" />
+    <MESSAGE value="ninky logger :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="ninky logger :D" />
   </component>
 </project>

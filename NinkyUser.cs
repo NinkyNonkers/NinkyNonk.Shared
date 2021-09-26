@@ -5,7 +5,7 @@ namespace NinkyNonk.Shared
 {
     public class NinkyUser
     {
-        public string Username { get; }
+        public string Username { get; set; }
         
         public Dictionary<string, string> Credentials { get; }
         
@@ -20,7 +20,15 @@ namespace NinkyNonk.Shared
             Username = username;
             Credentials = new Dictionary<string, string>();
         }
-        
-        
+
+        public override string ToString()
+        {
+            return Username;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj.ToString() == ToString();
+        }
     }
 }
