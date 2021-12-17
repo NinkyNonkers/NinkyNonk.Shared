@@ -1,6 +1,5 @@
 using System;
 using System.Diagnostics;
-using System.Reflection;
 
 namespace NinkyNonk.Shared.Logging
 {
@@ -33,16 +32,31 @@ namespace NinkyNonk.Shared.Logging
             Log("[!] " + error, ConsoleColor.Red);
         }
 
-        public static string AskInput(string question)
+        public static void LogFatal(string fatal)
         {
-            Log("[-] " + question);
+            Log("[X] " + fatal, ConsoleColor.Red);
+        }
+
+        public static void LogSuccess(string success)
+        {
+            Log("[+] " + success, ConsoleColor.Green);
+        }
+
+        public static void LogUpdate(string update)
+        {
+            Log("[i] " + update, ConsoleColor.Red);
+        }
+
+        public static string AskInput(string question, ConsoleColor col = ConsoleColor.White)
+        {
+            Log("[-] " + question, col);
             return Console.ReadLine();
         }
 
         public static void LogProgramInfo()
         {
             Log(ProcessName);
-            Log("(c) Ninky Nonk 2021 - ninkynonk.co.uk");
+            Log($"(c) Ninky Nonk {DateTime.Today.Year} - ninkynonk.co.uk");
         }
         
     }
