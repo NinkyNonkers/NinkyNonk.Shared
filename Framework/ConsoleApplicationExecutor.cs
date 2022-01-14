@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using NinkyNonk.Shared.Logging;
 
 namespace NinkyNonk.Shared.Framework
@@ -26,8 +27,25 @@ namespace NinkyNonk.Shared.Framework
             catch (Exception e)
             {
                 ConsoleLogger.LogFatal(e.Message);
-                Console.ReadKey();
             }
+
+            Console.ReadKey();
+        }
+
+        public async Task RunAsync()
+        {
+            try
+            {
+                ConsoleLogger.LogProgramInfo();
+                Task t = (Task) _application.Execute(_args);
+                await t;
+            }
+            catch (Exception e)
+            {
+                ConsoleLogger.LogFatal(e.Message);
+            }
+
+            Console.ReadKey();
         }
         
     }

@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3437c04-c578-45c7-b952-4aa880cdea3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Framework/ConsoleApplicationExecutor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework/INinkyConsoleApplication.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Configuration/ProjectConfigurationHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Environment/EnvironmentExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Environment/Project.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework/ConsoleProgramSimulator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/ConsoleApplicationExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/ConsoleApplicationExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/INinkyConsoleApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/INinkyConsoleApplication.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NinkyUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyUser.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,9 @@
       <option value="$PROJECT_DIR$/../NinkyNonk.Shared.Discord/UserExtensions.cs" />
       <option value="$PROJECT_DIR$/../NinkyNonk.Shared.Discord/DiscordUser.cs" />
     </changedPaths>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1uxE4yg1uzIwDfJZnxH9s9VckjS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,7 +51,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +79,11 @@
       <workItem from="1633362486568" duration="596000" />
       <workItem from="1633539329308" duration="126000" />
       <workItem from="1639594340060" duration="818000" />
-      <workItem from="1639758353244" duration="395000" />
+      <workItem from="1639758353244" duration="696000" />
+      <workItem from="1639759927932" duration="1545000" />
+      <workItem from="1640950332941" duration="1194000" />
+      <workItem from="1641057378187" duration="3924000" />
+      <workItem from="1642199982138" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1626458986789</created>
@@ -93,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632647064028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add new console framework, improve console logger">
+      <created>1639758876099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639758876099</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +132,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -122,6 +141,7 @@
     <MESSAGE value="m" />
     <MESSAGE value="ninky logger :D" />
     <MESSAGE value="Improve logging and add product" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve logging and add product" />
+    <MESSAGE value="Add new console framework, improve console logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new console framework, improve console logger" />
   </component>
 </project>

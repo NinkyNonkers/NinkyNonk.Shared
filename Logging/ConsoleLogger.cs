@@ -1,18 +1,11 @@
 using System;
 using System.Diagnostics;
+using NinkyNonk.Shared.Environment;
 
 namespace NinkyNonk.Shared.Logging
 {
     public static class ConsoleLogger
     {
-
-        private static readonly string ProcessName;
-
-        static ConsoleLogger()
-        {
-            ProcessName = Process.GetCurrentProcess().ProcessName.Replace(".exe", "");
-        }
-        
         public static void Log(object data, ConsoleColor col = ConsoleColor.White)
         {
             if (col != ConsoleColor.White)
@@ -44,7 +37,7 @@ namespace NinkyNonk.Shared.Logging
 
         public static void LogUpdate(string update)
         {
-            Log("[i] " + update, ConsoleColor.Red);
+            Log("[i] " + update);
         }
 
         public static string AskInput(string question, ConsoleColor col = ConsoleColor.White)
@@ -55,8 +48,8 @@ namespace NinkyNonk.Shared.Logging
 
         public static void LogProgramInfo()
         {
-            Log(ProcessName);
-            Log($"(c) Ninky Nonk {DateTime.Today.Year} - ninkynonk.co.uk");
+            Log(Project.ProcessName);
+            Log($"(c) Ninky Nonk {DateTime.Today.Year} - nonk.uk");
         }
         
     }

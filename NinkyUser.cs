@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Net;
 
 namespace NinkyNonk.Shared
 {
@@ -28,7 +27,7 @@ namespace NinkyNonk.Shared
 
         public override bool Equals(object obj)
         {
-            return obj.ToString() == ToString();
+            return obj?.ToString() == ToString();
         }
     }
 }
