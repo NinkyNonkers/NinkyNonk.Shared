@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3437c04-c578-45c7-b952-4aa880cdea3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Configuration/ProjectConfigurationHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Environment/EnvironmentExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Environment/Project.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework/ConsoleProgramSimulator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Configuration/Url.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NinkyNonkService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Update/NinkyNonkUpdateHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/ConsoleApplicationExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/ConsoleApplicationExecutor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework/INinkyConsoleApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/INinkyConsoleApplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Environment/EnvironmentExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Environment/EnvironmentExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Environment/Project.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Environment/Project.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinkyUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyUser.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,9 @@
       <workItem from="1639759927932" duration="1545000" />
       <workItem from="1640950332941" duration="1194000" />
       <workItem from="1641057378187" duration="3924000" />
-      <workItem from="1642199982138" duration="1093000" />
+      <workItem from="1642199982138" duration="1198000" />
+      <workItem from="1642248161230" duration="1283000" />
+      <workItem from="1642531849500" duration="2726000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1626458986789</created>
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639758876099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add console window simulator, new environment ns, clean user">
+      <created>1642201118104</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642201118105</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +148,7 @@
     <MESSAGE value="ninky logger :D" />
     <MESSAGE value="Improve logging and add product" />
     <MESSAGE value="Add new console framework, improve console logger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new console framework, improve console logger" />
+    <MESSAGE value="Add console window simulator, new environment ns, clean user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add console window simulator, new environment ns, clean user" />
   </component>
 </project>

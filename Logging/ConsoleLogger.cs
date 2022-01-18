@@ -15,6 +15,12 @@ namespace NinkyNonk.Shared.Logging
                 Console.ForegroundColor = ConsoleColor.White;
         }
 
+        internal static void LogUpdaterNotice()
+        {
+            Log("NinkyNonk Project Updater");
+            LogCopyright();
+        }
+
         public static void LogInfo(string info)
         {
             Log("[~] " + info);
@@ -40,17 +46,29 @@ namespace NinkyNonk.Shared.Logging
             Log("[i] " + update);
         }
 
+        public static bool AskInputBool(string question, ConsoleColor col = ConsoleColor.White)
+        {
+            string result = AskInput(question + " (y/N)", col).ToLower();
+            return result.Contains("y") || result.Contains("true") || result.Contains("1") || result.Contains("!false");
+        }
+
         public static string AskInput(string question, ConsoleColor col = ConsoleColor.White)
         {
             Log("[-] " + question, col);
             return Console.ReadLine();
         }
 
+        public static void LogCopyright()
+        {
+            Log($"(c) Ninky Nonk {DateTime.Today.Year} - {NinkyNonkService.Domain}");
+        }
+
         public static void LogProgramInfo()
         {
+            LogCopyright();
             Log(Project.ProcessName);
-            Log($"(c) Ninky Nonk {DateTime.Today.Year} - nonk.uk");
         }
+        
         
     }
 }
