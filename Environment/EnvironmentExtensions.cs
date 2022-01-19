@@ -27,7 +27,7 @@ namespace NinkyNonk.Shared.Environment
                 Ping myPing = new Ping();
                 const string host = "google.com";
                 byte[] buffer = new byte[32];
-                int timeout = 1000;
+                const int timeout = 1000;
                 PingOptions pingOptions = new PingOptions();
                 PingReply reply = myPing.Send(host, timeout, buffer, pingOptions);
                 return reply != null && (reply.Status == IPStatus.Success);

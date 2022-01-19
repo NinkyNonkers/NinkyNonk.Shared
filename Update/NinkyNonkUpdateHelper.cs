@@ -13,9 +13,6 @@ namespace NinkyNonk.Shared.Update
         
         public static void DoUpdateCheck(string currentVersion, string[] args)
         {
-            if (!System.Environment.OSVersion.HasInternet())
-                return;
-            
             switch (args[0])
             {
                 case "update":
@@ -40,6 +37,9 @@ namespace NinkyNonk.Shared.Update
                     return;
                 }
             }
+            
+            if (!System.Environment.OSVersion.HasInternet())
+                return;
 
             ConsoleLogger.LogInfo("Downloading update...");
             string url = NinkyNonkService.Url.Format(false) + Endpoint + currentVersion;
