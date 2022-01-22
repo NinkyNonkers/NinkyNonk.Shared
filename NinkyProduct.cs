@@ -3,7 +3,7 @@ namespace NinkyNonk.Shared
     public class NinkyProduct
     {
         public string Id { get; set; }
-        public string FileName { get; set; }
+        public string Uri { get; set; }
         public string LatestVersion { get; set; }
 
         public NinkyProduct()
@@ -11,10 +11,10 @@ namespace NinkyNonk.Shared
             
         }
 
-        public NinkyProduct(string id, string fileName, string latestVersion)
+        public NinkyProduct(string id, string uri, string latestVersion)
         {
             Id = id;
-            FileName = fileName;
+            Uri = uri;
             LatestVersion = latestVersion;
         }
         

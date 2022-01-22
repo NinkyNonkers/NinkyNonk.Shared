@@ -2,6 +2,7 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
+using NinkyNonk.Shared.Data;
 using NinkyNonk.Shared.Environment;
 using NinkyNonk.Shared.Logging;
 
@@ -38,7 +39,7 @@ namespace NinkyNonk.Shared.Update
                 }
             }
             
-            if (!System.Environment.OSVersion.HasInternet())
+            if (!ProjectEnvironmentHelper.HasInternet())
                 return;
 
             ConsoleLogger.LogInfo("Downloading update...");

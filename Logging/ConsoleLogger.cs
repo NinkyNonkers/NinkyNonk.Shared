@@ -1,5 +1,4 @@
 using System;
-using System.Diagnostics;
 using NinkyNonk.Shared.Environment;
 
 namespace NinkyNonk.Shared.Logging

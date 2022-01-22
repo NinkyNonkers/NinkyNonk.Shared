@@ -1,27 +1,26 @@
 using System;
-using System.IO;
 using System.Net.NetworkInformation;
 
 namespace NinkyNonk.Shared.Environment
 {
-    public static class EnvironmentExtensions
+    public static class ProjectEnvironmentHelper
     {
+        
         public static bool IsWindows(this OperatingSystem os)
         {
             return os.Platform == PlatformID.Win32S || os.Platform == PlatformID.Win32Windows ||
                    os.Platform == PlatformID.Win32NT || os.Platform == PlatformID.WinCE;
         }
 
-        public static byte[] ToByteArray(this Stream sourceStream)
+        public static string GetProgramFilesDirectory()
         {
-            using (var memoryStream = new MemoryStream())
-            {
-                sourceStream.CopyTo(memoryStream);
-                return memoryStream.ToArray();
-            }
+            if (System.Environment.OSVersion.IsWindows())
+                return "%ProgramFiles%\\NinkyNonk\\" + Project.ProcessName + "\\";
+            
+            return "/bin/ninkynonk/" + Project.ProcessName + "/";
         }
-
-        public static bool HasInternet(this OperatingSystem os)
+        
+        public static bool HasInternet()
         {
             try { 
                 Ping myPing = new Ping();
@@ -36,7 +35,5 @@ namespace NinkyNonk.Shared.Environment
                 return false;
             }
         }
-        
-        
     }
 }
