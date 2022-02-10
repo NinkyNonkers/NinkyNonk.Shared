@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3437c04-c578-45c7-b952-4aa880cdea3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/DataExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration/ProjectConfigurationHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/ProjectConfigurationHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration/Url.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/Url.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Environment/EnvironmentExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Environment/ProjectEnvironmentHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NinkyProduct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyProduct.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Update/NinkyNonkUpdateHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Update/NinkyNonkUpdateHelper.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Libraries/Projects/NinkyNonk/Shared/NinkyNonk.Shared/Logging/ConsoleLogger.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -87,7 +82,7 @@
       <workItem from="1642531849500" duration="3076000" />
       <workItem from="1642610640717" duration="2422000" />
       <workItem from="1642699906877" duration="1835000" />
-      <workItem from="1642846656074" duration="1953000" />
+      <workItem from="1642846656074" duration="3321000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1626458986789</created>
@@ -138,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642612025448</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Hehehe">
+      <created>1642848788223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642848788223</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +172,7 @@
     <MESSAGE value="Add console window simulator, new environment ns, clean user" />
     <MESSAGE value="Add self updating" />
     <MESSAGE value="Improve update helper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve update helper" />
+    <MESSAGE value="Hehehe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hehehe" />
   </component>
 </project>
