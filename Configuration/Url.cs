@@ -68,8 +68,10 @@ namespace NinkyNonk.Shared.Configuration
 
         public Url AddPath(string path)
         {
-            Url url = this;
-            url._path = path;
+            Url url = new Url(_noTrailingUrl)
+            {
+                _path = path
+            };
             if (path[0].ToString() == "/")
                 url._path.Remove(0);
             return url;

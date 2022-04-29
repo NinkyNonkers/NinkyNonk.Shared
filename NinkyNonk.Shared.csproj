@@ -4,7 +4,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>hiilikewiki</Authors>
         <Description>Shared classes and methods </Description>
-        <PackageVersion>1.1.9</PackageVersion>
+        <PackageVersion>1.1.10</PackageVersion>
         <Copyright>(c) Ninky Nonk</Copyright>
         <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
     </PropertyGroup>

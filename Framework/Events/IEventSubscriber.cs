@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace NinkyNonker.Events
+namespace NinkyNonk.Shared.Framework.Events
 {
     public interface IEventSubscriber<in T> where T : IEventArguments
     {

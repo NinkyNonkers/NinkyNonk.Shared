@@ -1,4 +1,4 @@
-namespace NinkyNonker.Events
+namespace NinkyNonk.Shared.Framework.Events
 {
     public class EventArgument<TArgType> : IEventArguments
     {

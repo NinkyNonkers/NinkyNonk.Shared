@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d3437c04-c578-45c7-b952-4aa880cdea3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NinkyNonk.Shared/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/Url.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/Url.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Events/EventArgument.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Events/EventArgument.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Events/EventBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Events/EventBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Events/IEventArguments.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Events/IEventArguments.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Events/IEventSubscriber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Events/IEventSubscriber.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework/Events/INinkyEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Framework/Events/INinkyEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/ConsoleLogger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NinkyNonk.Shared.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Libraries/Projects/NinkyNonk/Shared/NinkyNonk.Shared/Logging/ConsoleLogger.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -34,20 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,6 +84,9 @@
       <workItem from="1642610640717" duration="2422000" />
       <workItem from="1642699906877" duration="1835000" />
       <workItem from="1642846656074" duration="3321000" />
+      <workItem from="1644508643458" duration="1023000" />
+      <workItem from="1650640827479" duration="8000" />
+      <workItem from="1651267423610" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1626458986789</created>
@@ -140,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642848788223</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Cherry pick NinkyNonker event base">
+      <created>1644508844235</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1644508844235</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +184,7 @@
     <MESSAGE value="Add self updating" />
     <MESSAGE value="Improve update helper" />
     <MESSAGE value="Hehehe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hehehe" />
+    <MESSAGE value="Cherry pick NinkyNonker event base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cherry pick NinkyNonker event base" />
   </component>
 </project>

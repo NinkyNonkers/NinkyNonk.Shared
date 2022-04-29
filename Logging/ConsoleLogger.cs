@@ -64,8 +64,8 @@ namespace NinkyNonk.Shared.Logging
 
         public static void LogProgramInfo()
         {
-            LogCopyright();
             Log(Project.ProcessName);
+            LogCopyright();
         }
         
         

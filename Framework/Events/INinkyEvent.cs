@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace NinkyNonker.Events
+namespace NinkyNonk.Shared.Framework.Events
 {
     public interface INinkyEvent<out TParam> : IDisposable where TParam : IEventArguments
     {

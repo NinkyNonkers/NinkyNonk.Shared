@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NinkyNonker.Events
+namespace NinkyNonk.Shared.Framework.Events
 {
 
     public abstract class EventBase : INinkyEvent
